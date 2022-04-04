@@ -1,4 +1,8 @@
 @font-face {
+    font-family: 'aller-regular';
+    src: url(Fonts/Aller_Rg.ttf);
+}
+@font-face {
     font-family: 'aller-light';
     src: url(Fonts/Aller_Lt.ttf);
 }
@@ -37,6 +41,9 @@ nav{
     font-family: 'aller-light';
     font-size: 0.5;
 }
+.nv-2{
+    padding-left: 7rem !important;
+}
 .get{
     background: #ffffff;
     color: #4293ff;
@@ -68,7 +75,6 @@ nav{
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
    }
-
 .nav-link:hover{
     color: #ffffff !important;
 }
@@ -91,3 +97,23 @@ nav{
     transform: scale(1, 1);
 }
 /* nav */
+
+/* title & dtl  */
+.heading{
+    color: #fff;
+}
+h1{
+    font-family: 'aller-light';
+    letter-spacing: 0.100em;
+}
+p{
+    font-family: 'aller-light';
+    opacity: 50%;
+}
+
+img{
+    width: 65em;
+    height: auto;
+
+}
+/* title & dtl  */
